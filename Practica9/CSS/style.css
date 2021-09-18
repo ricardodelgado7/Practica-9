@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    position: relative;
+    background-color: rgb(235, 235, 115);
+    font-family: 'Trebuchet MS',Arial, sans-serif;
+    color: black;
+}
+
+
+header{
+    background: url(../img/banner.jpg);
+    
+    background-repeat: no-repeat;
+}
+
+header h1{
+    
+    font-family: 'Comic Sans MS';
+    font-size: 40px;
+    font-weight: bold;   
+    
+}
+
+
+
+#titulo{
+    display: inline-block;
+}
+
+#logo, header h1{
+
+    display:inline-block;
+    margin-bottom: 0px;
+    height: 140px;
+
+}
+
+
+
+nav{
+    
+    margin-top: 15px;
+    cursor: all-scroll;
+    display: inline-block;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    background-color:black;
+}
+
+nav ul{
+    
+    list-style-type: none;
+}
+
+nav li{
+    
+    display: inline-block;
+    margin-right:15px ;
+}
+
+nav a{
+   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+    color: yellow;
+    padding-bottom: 3px ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover{
+    display: block;
+    background-color: white;
+    color: orange;
+    border-bottom: 3px solid red;
+}
+
+img{
+    height: 250px;
+}
+
+article{
+
+    padding: 10px;
+}
+
+section{
+
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 75%;
+    
+}
+
+aside{
+    padding: 5px;
+    font-style: italic;
+    float: right;
+    width: 22%;
+    border: 2px solid;
+    background-color: greenyellow;
+    
+}
+
+
+footer{
+    float: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    box-sizing: border-box;
+    border-top: 3px solid black;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px ;
+    font-weight:bold;
+    margin-top: 20px;
+}
+
